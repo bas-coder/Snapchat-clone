@@ -1,0 +1,15 @@
+.webcamCapture {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+
+    &__button {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        color: $white;
+    }
+
+}

@@ -1,0 +1,35 @@
+[debug] [2022-09-26T00:03:22.340Z] ----------------------------------------------------------------------
+[debug] [2022-09-26T00:03:22.344Z] Command:       /home/usman/.nvm/versions/node/v14.20.0/bin/node /home/usman/.nvm/versions/node/v14.20.0/bin/firebase init
+[debug] [2022-09-26T00:03:22.344Z] CLI Version:   11.9.0
+[debug] [2022-09-26T00:03:22.345Z] Platform:      linux
+[debug] [2022-09-26T00:03:22.345Z] Node Version:  v14.20.0
+[debug] [2022-09-26T00:03:22.345Z] Time:          Mon Sep 26 2022 01:03:22 GMT+0100 (West Africa Standard Time)
+[debug] [2022-09-26T00:03:22.346Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-26T00:03:22.355Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-26T00:03:22.355Z] > authorizing via signed-in user (abbasalabson@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/usman/Documents/Abbas Projects/React Projects/snapchat
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-09-26T00:03:25.887Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-09-26T00:03:25.918Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+[debug] [2022-09-26T00:03:25.930Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+    at RetryOperation._fn (/home/usman/.nvm/versions/node/v14.20.0/lib/node_modules/firebase-tools/lib/apiv2.js:242:31)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.

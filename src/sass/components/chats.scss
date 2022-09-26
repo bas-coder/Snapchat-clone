@@ -1,0 +1,84 @@
+.chats {
+    position: relative;
+    height: 400px;
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $brand-blue;
+        height: 55px;
+    }
+
+    &__avatar {
+        margin-left: 10px;
+        height: 30px !important;
+        width: 30px !important;
+    }
+
+    &__chatIcon {
+        margin-right: 10px;
+        color: $white;
+    }
+
+    &__search {
+        display: flex;
+        align-items: center;
+        flex: 1;
+        padding-left: 8px;
+        color: $white;
+
+        input {
+            outline: none;
+            background-color: transparent;
+            border: none;
+            font-size: 12px;
+            flex: 1;
+            padding: 3px;
+            color: $white;
+
+            &::placeholder {
+                color: $white;
+                opacity: 1;
+                font-size: 13px;
+            }
+        }
+    }
+
+    &__posts {
+        box-shadow: 1px -7px 7px -6px rgba(17, 17, 17, 0.44);
+        height: 350px;
+        background-color: $white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        margin-top: -6px;
+        overflow: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        
+    }
+
+    &__takePicIcon {
+        position: absolute;
+        background-color: $white;
+        border-radius: 200px;
+        color: rgb(61, 61, 61);
+        font-size: 40px !important;
+        cursor: pointer;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+}

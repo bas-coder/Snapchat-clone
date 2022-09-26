@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Avenir;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: local('Helvetica'),
+        url(../assets/fonts/Helvetica_Neue_Medium_Extended.ttf) 
+        format('truetype');
+} 
+
+@font-face {
+    font-family: Avenir;
+    src: local('Avenir'),
+        url(../assets/fonts/AvenirNextLTPro-Regular.otf) 
+        format('opentype');
+} 
